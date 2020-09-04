@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html class="no-js" lang="">
+  <head>
+    <meta charset="utf-8" />
+    <title>Cell Phone Survey</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <meta property="og:title" content="" />
+    <meta property="og:type" content="" />
+    <meta property="og:url" content="" />
+    <meta property="og:image" content="" />
+
+    <link rel="manifest" href="site.webmanifest" />
+    <link rel="apple-touch-icon" href="icon.png" />
+    <!-- Place favicon.ico in the root directory -->
+
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/second.css" />
+    <meta name="theme-color" content="#fafafa" />
+  </head>
+
+  <body>
+    <!-- Add your site or application content here -->
+    <header>
+      <h1>
+        <span style="font-size: 100px;">&#128242;</span> Cell Phone Survey
+        <span style="font-size: 100px;">&#128242;</span>
+      </h1>
+      <span>
+        <img src="./img/illustration-3.png" alt="happy" />
+      </span>
+
+      <img src="./img/illustration 1.png" alt="phones" />
+      <span>
+        <img src="./img/illustration-3.png" alt="happyphones" />
+      </span>
+
+      <div
+        style="
+          background-color: lavenderblush;
+          color: cornflowerblue;
+          padding: 15px;
+        "
+      >
+        <h2>
+          We all know that now is the age of technology. Mobile phones have
+          become our everyday life, even an object without which we can not
+          leave home. For many, the phone is just a need without which we can
+          not function at this time, but for some the phone is an important
+          accessory, not just a need. In this Poll we want to find out what are
+          your tastes and favorite phone models that we see on the market.
+        </h2>
+      </div>
+
+      <hr />
+      <ins>
+        <p style="color: lightcoral; font-size: 150%;">
+          Write your
+          <span style="color: darkolivegreen; font-weight: bold;"
+            >PERSONAL</span
+          >
+          Information :
+        </p>
+      </ins>
+      <hr />
+    </header>
+
+    <input type="radio" id="male" name="gender" value="male" />
+    <label for="male">Male</label><br />
+
+    <input type="radio" id="female" name="gender" value="female" />
+    <label for="female">Female</label><br />
+
+    <form>
+      <label>Date of birth:</label>
+      <input type="text" />
+      <br />
+
+      <label>Country:</label>
+      <input type="text" />
+      <br />
+    </form>
+
+    <main>
+      <h3 style="color: crimson;">
+        Let's START
+      </h3>
+    </main>
+    <h3>
+      Which phone model do you use?
+    </h3>
+    <main>
+      <input type="radio" id="Samsung" name="model" value="Samsung" />
+      <label for="male">Samsung</label><br />
+      <input type="radio" id="Iphone" name="model" value="Iphone" />
+      <label for="female">Iphone</label><br />
+      <input type="radio" id="Huawei" name="model" value="Huawei" />
+      <label for="female">Huawei</label><br />
+      <input type="radio" id="HTC" name="model" value="HTC" />
+      <label for="female">HTC</label><br />
+    </main>
+    <h3>
+      If you use another model please write HERE
+    </h3>
+    <input type="hidden" name="Nokia" />
+    <main>
+      <label>Your model:</label>
+      <input type="text" />
+      <br />
+    </main>
+    <h3>
+      What is your favorite phone color? (Choose if you have more)
+    </h3>
+    <main>
+      <input type="checkbox" id="color1" name="color1" value="Black" />
+      <label for="vehicle1"> Black</label><br />
+      <input type="checkbox" id="color2" name="color2" value="Silver" />
+      <label for="vehicle2"> Silver</label><br />
+      <input type="checkbox" id="color3" name="color3" value="White" />
+      <label for="vehicle3"> White</label><br />
+      <input type="checkbox" id="color4" name="color4" value="Red" />
+      <label for="vehicle4"> Red</label><br />
+      <input type="checkbox" id="color5" name="color5" value="Pink" />
+      <label for="vehicle5"> Pink</label><br />
+      <input type="checkbox" id="color6" name="color6" value="Bronze" />
+      <label for="vehicle6"> Bronze</label><br />
+    </main>
+    <form>
+      <h3>
+        Are you satisfied with your phone services?
+      </h3>
+    </form>
+    <main>
+      <input type="radio" id="male" name="gender" value="male" />
+      <label for="male">Yes</label><br />
+      <input type="radio" id="female" name="gender" value="female" />
+      <label for="female">No</label><br />
+
+      <input type="submit" value="submit" />
+    </main>
+
+    <pre id="preview"></pre>
+
+    <footer>
+      <a href="/index.html">Go to index.html</a>
+    </footer>
+    <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+    <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+    <script>
+      window.ga = function () {
+        ga.q.push(arguments);
+      };
+      ga.q = [];
+      ga.l = +new Date();
+      ga("create", "UA-XXXXX-Y", "auto");
+      ga("set", "anonymizeIp", true);
+      ga("set", "transport", "beacon");
+      ga("send", "pageview");
+    </script>
+    <script src="https://www.google-analytics.com/analytics.js" async></script>
+  </body>
+</html>

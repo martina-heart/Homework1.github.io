@@ -1,0 +1,29 @@
+body {
+  text-align: center;
+  border: 10px solid steelblue;
+  margin: 10px;
+  background-color: lavender;
+}
+
+h1 {
+  font-size: 70px;
+  width: 1750px;
+  padding: 20px;
+  border: 5px solid steelblue;
+  margin: 3px;
+  color: darkred;
+}
+
+img {
+  width: 550px;
+  padding: 10px;
+  border: 3px solid lightcoral;
+  margin: 10px;
+}
+
+body h3 {
+  text-align: center;
+  margin: 5px;
+  font-family: sans-serif;
+  color: dimgray;
+}

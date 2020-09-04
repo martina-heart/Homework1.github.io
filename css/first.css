@@ -1,0 +1,76 @@
+body {
+  background-image: url("../img/colors.jpg");
+  background-size: 1500px;
+  text-align: center;
+}
+
+h1 {
+  width: 1700px;
+  padding: 20px;
+  border: 10px solid yellow;
+  margin: 30px;
+}
+
+header img {
+  width: 300px;
+  padding: 10;
+  border: 10px solid yellowgreen;
+  margin: 20px;
+}
+
+#firstID {
+  color: crimson;
+  font-size: 300%;
+  font-weight: bolder;
+}
+
+body h2 {
+  font-weight: bolder;
+  font-family: cursive;
+  color: cornflowerblue;
+}
+
+header ul {
+  list-style: none;
+  color: indigo;
+  font-style: italic;
+  font-size: xx-large;
+}
+
+.secondID {
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: darkturquoise;
+  font-size: x-large;
+}
+
+main .style {
+  color: indigo;
+  font-style: italic;
+  font-size: x-large;
+}
+
+footer span {
+  color: floralwhite;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  border: 2px solid currentColor;
+}
+
+main ul.social-networks li {
+  padding: 10px 50px 10px;
+  text-align: center;
+  width: 5px;
+
+  float: right;
+  overflow: auto;
+}
+
+main img {
+  list-style: none;
+  text-align: left;
+  padding: 10px;
+  text-align: center;
+  position: relative;
+  float: inline-start;
+  width: 30px;
+}
