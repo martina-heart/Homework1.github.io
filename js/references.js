@@ -6,8 +6,12 @@ k: address v: your address (as Object) --> k: street v: your street name k: numb
 
 let info = {
   name: "Martina",
-  age: "25",
-  adress: { street: "Kosturski Heroi", number: "31", city: "Skopje" },
+  age: 26,
+  adress: {
+    street: "Kosturski Heroi",
+    number: 31,
+    city: "Skopje",
+  },
 };
 
 /* Write few arrays that consists of these elements:
@@ -31,11 +35,30 @@ Then try to change some values inside this newly created complex data structures
 
 */
 
+//Object:
+
+let NewObject = new Object();
+NewObject = info;
+
+NewObject.adress.city = "Hamburg";
+
+//Array :
+
+let NewArray = new Array();
+NewArray = mixed;
+
+NewArray[0] = "Klara 56";
+
 /* Expected results */
 //console.log(OriginalObject) --> ?
 //console.log(OriginalArrray) --> ?
 //console.log(NewObject) --> ?
 //console.log(NewArray) --> ?
+
+console.log(info);
+console.log(mixed);
+console.log(NewObject);
+console.log(NewArray);
 
 // Reassign reference type example
 
@@ -47,3 +70,15 @@ obj = { second: 'ref2' }
 
 console.log(obj2) --> ?
 */
+
+let obj = {
+  Shop: "Parfume",
+};
+
+let obj2 = obj;
+
+obj = {
+  Shop1: "Cars",
+};
+
+console.log(obj2);
