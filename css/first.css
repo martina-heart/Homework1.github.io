@@ -56,21 +56,14 @@ footer span {
   border: 2px solid currentColor;
 }
 
-main ul.social-networks li {
+main ul.social-networks {
   padding: 10px 50px 10px;
-  text-align: center;
-  width: 5px;
-
-  float: right;
-  overflow: auto;
+  position: absolute;
+  display: contents;
 }
 
 main img {
   list-style: none;
-  text-align: left;
   padding: 10px;
-  text-align: center;
-  position: relative;
-  float: inline-start;
-  width: 30px;
+  width: 50px;
 }
