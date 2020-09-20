@@ -45,7 +45,7 @@ if (boy2 && (boy || boy1)) {
 
 if (boy2 && boy < boy1) {
   console.log(boy2 * boy);
-} else if (boy1 > boy2) {
+} else if (boy1 <= boy2) {
   console.log("No boys");
 } else {
   ("Try again");
