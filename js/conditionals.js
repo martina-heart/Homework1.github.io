@@ -41,7 +41,7 @@ if (boy2 && (boy || boy1)) {
   ("Sorry you don't have 50 boys ");
 }
 
-// da go prasam Viktor
+// else is true (// )
 
 if (boy2 && boy < boy1) {
   console.log(boy2 * boy);
