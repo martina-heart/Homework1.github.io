@@ -1,9 +1,9 @@
 // let hello = "Hello Word";
 // let number = 20;
 
-let h1_hello = document.querySelector("h1");
+// let h1_hello = document.querySelector("h1");
 
-h1_hello.textContent = "Hello everyone, this is my first Webside";
+// h1_hello.textContent = "Hello everyone, this is my first Webside";
 
 /* 6 Primitive type (Undefind,null,number,string,boolean (true or false),symbol)  */
 
