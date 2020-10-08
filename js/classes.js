@@ -70,7 +70,22 @@ console.log(macedonian.talk());
 // let mySquare1 = new Square(5);
 // let mySquare2 = new Square(6);
 
-// console.log(Square.povNa2Kocki(mySquare1, mySquare2));
+// console.log(Square.povNa2Kocki(mySquare1, mySquare2));//staticko povikuvanje po klasa
 
 // console.log(mySquare1.area);
 // console.log(mySquare1.getStrana());
+
+/* Parent and Child - zborot EXTENDS go upotrebuvame za da napomeneme deka sakame da nasledi odredena vrednost ,
+odnosno class Person da bide Parent a class Programmer da bide Child*/
+
+// class Person {
+//     constructor (imeNaNaslednaVrednost){
+// this.strana1=
+//     }
+// }
+// class Programmer extends Person {
+//     constructor (imeNaNaslednaVrednost, Imena2NaslednaVrednost) {
+// super (imeNaNaslednaVrednost);
+// this.strana2=Imena2NaslednaVrednost;
+//     }
+// }
