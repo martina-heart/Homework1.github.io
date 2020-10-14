@@ -33,3 +33,5 @@ function loadDocWithFetch() {
 let res = loadDocWithFetch();
 
 res.then((res) => res.json()).then((data) => console.log(data));
+
+// Da go povtoram predavanjeto i da se dopisat funkciite od cas .
