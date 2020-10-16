@@ -18,7 +18,7 @@ let info = {
 };
 
 /**
- * da gi dodadam slikite od ntml (yahoo and call) da probams so PUSH
+ * da gi dodadam slikite od ntml (yahoo and call) da probam so PUSH
  * //let img = document.createElement("img");
  * //img.setAttribute("src", "./img/yahoo.png");
  */
