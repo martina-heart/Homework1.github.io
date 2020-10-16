@@ -65,7 +65,7 @@ let fruits = {
  * ex. {a: 1, b: 2, c: 3} returns {1: "a", 2: "b", 3: "c"}
  */
 
-let ob = { a: 1, b: 2, c: 3 };
+// let ob = { a: 1, b: 2, c: 3 };
 // let ob2 = {};
 
 // Object.entries(ob).forEach((el) => {
@@ -89,24 +89,34 @@ let numbers = [
   [9, 3, 7, 2, 4],
 ];
 
+// let newArr = [];
+
+// numbers.flat().forEach((el) => {
+//   if (newArr.indexOf(el) == -1) {
+//     newArr.push(el);
+//   }
+// });
+// newArr.sort();
+// console.log(newArr);
+
 /**
  * 5. Write JS program that will find the longest word from a given string.
  *
  * ex. "I am student in the CodeAcademy school." returns "CodeAcademy"
  */
 
-let str = "I am student in the CodeAcademy school.";
+// let str = "I am student in the CodeAcademy school.";
 
-let a = str.split(" ");
-let word = "";
+// let a = str.split(" ");
+// let word = "";
 
-a.forEach((el) => {
-  if (el.length > word.length) {
-    word = el;
-  }
-});
+// a.forEach((el) => {
+//   if (el.length > word.length) {
+//     word = el;
+//   }
+// });
 
-console.log(word);
+// console.log(word);
 
 /**
  * 6. Write JS program that will compare two arrays and will return array
@@ -114,7 +124,18 @@ console.log(word);
  *             HOMEWORK
  *
  * ex. ["apple", "watermelon", "lemon", "pear"], ["pear", "orange", "grape", "lemon"] returns ["pear", "lemon"]
+ *
+ *  hint (filter)- nov metod samo za nizi Arreys
  */
+
+// let a = ["apple", "watermelon", "lemon", "pear"];
+// let b = ["pear", "orange", "grape", "lemon"];
+
+// let c = a.filter((el) => {
+//   return b.indexOf(el) != -1; //es6 b.includes(el)
+// });
+
+// console.log(c);
 
 /**
  * 7. Write JS program that will render a button inside a HTML document
@@ -122,11 +143,61 @@ console.log(word);
  * top-level tag rendered in that document(ex. the body tag).
  */
 
+// let button;
+// let topLevelTag;
+// let color = "red";
+
+// button = document.getElementById("btn");
+// topLevelTag = document.getElementsByTagName("body")[0];
+
+//console.log(button);
+//console.log(topLevelTag);
+
+// button.addEventListener("click", function (e, el) {
+//   return onButtonClick(e, button);
+// });
+
+// function onButtonClick(e, el) {
+//   e.preventDefault();
+
+//   el.style.backgroundColor = "blue";
+// }
 /**
  * 8. Write JS program that will generate a random quote from the given
  * list of quotes, and it will display into the browsera, and alongside
  * it will also list the name of the man behind.
  */
+
+const quotes = [
+  {
+    quote:
+      "Life is too short and sweet to be spent by cribbing and complaining about things. Here are some random quotes about the most wonderful gift that we've got",
+    author: " Life",
+  },
+  {
+    quote:
+      "Humor is richly rewarding to the person who employs it. It has some value in gaining and holding attention. But it has no persuasive value at all",
+    author: "John Kenneth Galbraith",
+  },
+  {
+    quote: "God save me from my friends. I can protect myself from my enemies.",
+    author: "Claude Louis Hector de Villars ",
+  },
+  {
+    quote: "The price of anything is the amount of life you exchange for it.",
+    author: "David Thoreau",
+  },
+  {
+    quote:
+      "Life is like a landscape. You live in the midst of it but can describe it only from the vantage point of distance. ",
+    author: "Charles Lindbergh",
+  },
+  {
+    quote:
+      "A critic is someone who never actually goes to the battle, yet who afterwards comes out shooting the wounded.",
+    author: " Tyne Daly",
+  },
+];
 
 /**
  * 9. Write JS program that will find words into a string and
@@ -134,7 +205,9 @@ console.log(word);
  * they are if they are capitalized.
  *
  * ex. "Head, shoulders, nees and Toes" returns "Head, Shoulders, Nees And Toes"
- *       HOMEWORK
+ *                          HOMEWORK
+ *
+ * hint: use method toUpperString()
  */
 
 /**
@@ -144,9 +217,17 @@ console.log(word);
  *
  * ex. filter(["Wood", "Iron", "Towel", "Bridge"], "w") returns ["Wood", "Towel"]
  *
- *       HOMEWORK
- */
-
-/**
+ *                          HOMEWORK
  *
+ * hint : use indexOf() and filter metod
+ *
+ * finction findLetter ( arr, letter ) {
+ * arr.forEach(() => {
+ * el.indexOf (letter) != -1
+ * })
+ *  return newArrey
+ * let arr = [12,123,412];
+ * let worl ="traect";
+ *
+ * console.log(findLetter(arr, word));
  */

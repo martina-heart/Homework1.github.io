@@ -1,5 +1,5 @@
 /**
- * Homework *  Select a semantic  tag from the HTML  content and create it with the DOM selectors . (second.html - )
+ * Homework *  Select a semantic  tag from the HTML  content and create it with the DOM selectors . (index.html - )
  */
 
 let h2 = document.getElementsByTagName("h2");
@@ -16,12 +16,6 @@ let info = {
   email: "dionmartina@yahoo.com",
   phone: "072-316-076",
 };
-
-/**
- * da gi dodadam slikite od ntml (yahoo and call) da probam so PUSH
- * //let img = document.createElement("img");
- * //img.setAttribute("src", "./img/yahoo.png");
- */
 
 p[2].innerHTML = "E-mail : " + info.email;
 p[3].innerHTML = "Phone Number :" + info.phone;
