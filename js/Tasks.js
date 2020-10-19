@@ -162,6 +162,7 @@ let numbers = [
 
 //   el.style.backgroundColor = "blue";
 // }
+
 /**
  * 8. Write JS program that will generate a random quote from the given
  * list of quotes, and it will display into the browsera, and alongside

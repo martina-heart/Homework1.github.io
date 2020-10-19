@@ -17,5 +17,10 @@ let info = {
   phone: "072-316-076",
 };
 
-p[2].innerHTML = "E-mail : " + info.email;
-p[3].innerHTML = "Phone Number :" + info.phone;
+let photo = getElementById("img1");
+let photo1 = getElementById("img2");
+
+p[2].innerHTML = img1 + "E-mail : " + info.email;
+p[3].innerHTML = img2 + "Phone Number :" + info.phone;
+
+document.getElementById("img").innerHTML = document.images;
