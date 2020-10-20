@@ -7,20 +7,20 @@
  * from the array given.
  */
 
-let cars = [
-  {
-    model: "Ford",
-    color: "Red",
-  },
-  {
-    model: "Skoda",
-    color: "Grey",
-  },
-  {
-    model: "Ford",
-    color: "Grey",
-  },
-];
+// let cars = [
+//   {
+//     model: "Ford",
+//     color: "Red",
+//   },
+//   {
+//     model: "Skoda",
+//     color: "Grey",
+//   },
+//   {
+//     model: "Ford",
+//     color: "Grey",
+//   },
+// ];
 
 // let ob = { models: [], colors: [] };
 
@@ -40,16 +40,16 @@ let cars = [
  * from the object given.
  */
 
-let fruits = {
-  subtropical: {
-    area: "Far from the Equator",
-    list: ["Apple", "Pear"],
-  },
-  tropical: {
-    area: "Near the Equator",
-    list: ["Banana", "Orange"],
-  },
-};
+// let fruits = {
+//   subtropical: {
+//     area: "Far from the Equator",
+//     list: ["Apple", "Pear"],
+//   },
+//   tropical: {
+//     area: "Near the Equator",
+//     list: ["Banana", "Orange"],
+//   },
+// };
 
 // let a = [];
 
@@ -82,12 +82,12 @@ let fruits = {
  * hint ( sort)
  */
 
-let numbers = [
-  [7, 2, 4],
-  [4, 3],
-  [5, 1, 6],
-  [9, 3, 7, 2, 4],
-];
+// let numbers = [
+//   [7, 2, 4],
+//   [4, 3],
+//   [5, 1, 6],
+//   [9, 3, 7, 2, 4],
+// ];
 
 // let newArr = [];
 
@@ -167,38 +167,45 @@ let numbers = [
  * 8. Write JS program that will generate a random quote from the given
  * list of quotes, and it will display into the browsera, and alongside
  * it will also list the name of the man behind.
+ *                          HOMEWORK
  */
 
-const quotes = [
-  {
-    quote:
-      "Life is too short and sweet to be spent by cribbing and complaining about things. Here are some random quotes about the most wonderful gift that we've got",
-    author: " Life",
-  },
-  {
-    quote:
-      "Humor is richly rewarding to the person who employs it. It has some value in gaining and holding attention. But it has no persuasive value at all",
-    author: "John Kenneth Galbraith",
-  },
-  {
-    quote: "God save me from my friends. I can protect myself from my enemies.",
-    author: "Claude Louis Hector de Villars ",
-  },
-  {
-    quote: "The price of anything is the amount of life you exchange for it.",
-    author: "David Thoreau",
-  },
-  {
-    quote:
-      "Life is like a landscape. You live in the midst of it but can describe it only from the vantage point of distance. ",
-    author: "Charles Lindbergh",
-  },
-  {
-    quote:
-      "A critic is someone who never actually goes to the battle, yet who afterwards comes out shooting the wounded.",
-    author: " Tyne Daly",
-  },
-];
+// const quotes = [
+//   {
+//     quote:
+//       "Life is too short and sweet to be spent by cribbing and complaining about things. Here are some random quotes about the most wonderful gift that we've got",
+//     author: " Life",
+//   },
+//   {
+//     quote:
+//       "Humor is richly rewarding to the person who employs it. It has some value in gaining and holding attention. But it has no persuasive value at all",
+//     author: "John Kenneth Galbraith",
+//   },
+//   {
+//     quote: "God save me from my friends. I can protect myself from my enemies.",
+//     author: "Claude Louis Hector de Villars ",
+//   },
+//   {
+//     quote: "The price of anything is the amount of life you exchange for it.",
+//     author: "David Thoreau",
+//   },
+//   {
+//     quote:
+//       "Life is like a landscape. You live in the midst of it but can describe it only from the vantage point of distance. ",
+//     author: "Charles Lindbergh",
+//   },
+//   {
+//     quote:
+//       "A critic is someone who never actually goes to the battle, yet who afterwards comes out shooting the wounded.",
+//     author: " Tyne Daly",
+//   },
+// ];
+
+// function randomThings(quotes) {
+//   return quotes[Math.floor(Math.random() * quotes.length)];
+// }
+
+// console.log(randomThings(quotes)); // quote: "The price of anything is the amount of life you exchange for it.", author: "David Thoreau",
 
 /**
  * 9. Write JS program that will find words into a string and
@@ -210,6 +217,15 @@ const quotes = [
  *
  * hint: use method toUpperString()
  */
+
+// var a = "Head, shoulders, nees and Toes";
+// var upper = a.split(" ");
+
+// for (let i = 0; i < upper.length; i++) {
+//   upper[i] = upper[i][0].toUpperCase() + upper[i].substr(1);
+// }
+
+// console.log(upper); //returns "Head, Shoulders, Nees And Toes"
 
 /**
  * 10. Write JS program that will filter out only the words from an array
@@ -230,5 +246,17 @@ const quotes = [
  * let arr = [12,123,412];
  * let worl ="traect";
  *
- * console.log(findLetter(arr, word));
+ * console.log(findLetter(arr, word)); da ja resam / dovrsham !!!!!!
  */
+
+let arr = ["Wood", "Iron", "Towel", "Bridge"];
+let word = "w";
+newArrey = [];
+function findLetter(arr, word) {
+  newArrey.forEach((element) => {
+    element.indexOf(word) != -1;
+  });
+  return newArrey;
+}
+
+console.log(findLetter(arr, word));
