@@ -228,35 +228,22 @@
 // console.log(upper); //returns "Head, Shoulders, Nees And Toes"
 
 /**
- * 10. Write JS program that will filter out only the words from an array
- * that have the given letter (as a second argument) in them, and
- * if there is no such word it will return "Sorry, no word found";
+ * 10.`
  *
  * ex. filter(["Wood", "Iron", "Towel", "Bridge"], "w") returns ["Wood", "Towel"]
  *
  *                          HOMEWORK
  *
  * hint : use indexOf() and filter metod
- *
- * finction findLetter ( arr, letter ) {
- * arr.forEach(() => {
- * el.indexOf (letter) != -1
- * })
- *  return newArrey
- * let arr = [12,123,412];
- * let worl ="traect";
- *
- * console.log(findLetter(arr, word)); da ja resam / dovrsham !!!!!!
  */
 
 let arr = ["Wood", "Iron", "Towel", "Bridge"];
 let word = "w";
-newArrey = [];
+
 function findLetter(arr, word) {
-  newArrey.forEach((element) => {
-    element.indexOf(word) != -1;
+  return arr.filter(function (el) {
+    return el.toLowerCase().indexOf(word.toLowerCase()) != -1;
   });
-  return newArrey;
 }
 
 console.log(findLetter(arr, word));
