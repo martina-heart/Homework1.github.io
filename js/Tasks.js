@@ -237,13 +237,13 @@
  * hint : use indexOf() and filter metod
  */
 
-let arr = ["Wood", "Iron", "Towel", "Bridge"];
-let word = "w";
+// let arr = ["Wood", "Iron", "Towel", "Bridge"];
+// let word = "w";
 
-function findLetter(arr, word) {
-  return arr.filter(function (el) {
-    return el.toLowerCase().indexOf(word.toLowerCase()) != -1;
-  });
-}
+// function findLetter(arr, word) {
+//   return arr.filter(function (el) {
+//     return el.toLowerCase().indexOf(word.toLowerCase()) != -1;
+//   });
+// }
 
-console.log(findLetter(arr, word));
+// console.log(findLetter(arr, word));
